@@ -112,7 +112,7 @@ console.log(someNum)
 //Code Here
 if(myFavoriteNumbers.length < 7){
   console.log('There are not enough elements in this array')
-}else{
+}else if(myFavoriteNumber >= 7){
   someNum = myFavoriteNumbers[6]
   console.log(someNum)
 }
